@@ -1,0 +1,3081 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Database Metadata</title>
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            table, th, td {
+                border: 1px solid black;
+            }
+            th, td {
+                padding: 15px;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Database Metadata</h2>
+        <table>
+            <tr>
+                <th>Table Name</th>
+                <th>Column Name</th>
+                <th>Data Type</th>
+                <th>Distinct Values</th>
+            </tr>
+    
+        <tr>
+            <td>cb_BDCT_SRConfiguredListOption_V3</td>
+            <td>rowidentifier</td>
+            <td>varchar</td>
+            <td>1003, 1001, 100</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRConfiguredListOption_V3</td>
+            <td>configuredlist</td>
+            <td>varchar</td>
+            <td>176060, 176071, 176077</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRConfiguredListOption_V3</td>
+            <td>configuredlistoption</td>
+            <td>varchar</td>
+            <td>Other, Assessment, Child and Adolescent Psychiatry</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRConfiguredListOption_V3</td>
+            <td>cdscode</td>
+            <td>varchar</td>
+            <td>, 97, 14</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRConfiguredListOption_V3</td>
+            <td>camhscode</td>
+            <td>varchar</td>
+            <td>, B1, 09</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRConfiguredListOption_V3</td>
+            <td>mhsdscode</td>
+            <td>varchar</td>
+            <td>, 02, 23</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRConfiguredListOption_V3</td>
+            <td>cyphs_cids_csdscode</td>
+            <td>varchar</td>
+            <td>, CYPHS CIDS CSDSCode, 02</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRConfiguredListOption_V3</td>
+            <td>cb_datasetref</td>
+            <td>varchar</td>
+            <td>ExportSRE010116_311023, src_bdct_ExportNov22SRE 010116_310822, src_BDCT_SRConfiguredListOption_V2</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRMapping_V3</td>
+            <td>Rowidentifier</td>
+            <td>varchar</td>
+            <td>10253, 10248, 10246</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRMapping_V3</td>
+            <td>Idmappinggroup</td>
+            <td>varchar</td>
+            <td>176065, 175137, 157045</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRMapping_V3</td>
+            <td>Mapping</td>
+            <td>varchar</td>
+            <td>Unset, Deprecated List, Other</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRMapping_V3</td>
+            <td>cb_datasetref</td>
+            <td>varchar</td>
+            <td>ExportSRE010116_311023, src_bdct_ExportNov22SRE 010116_310822, src_BDCT_SRMapping_V2</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRMappingGroup_V3</td>
+            <td>rowidentifier</td>
+            <td>varchar</td>
+            <td>12257, 11281, 1077</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRMappingGroup_V3</td>
+            <td>group</td>
+            <td>varchar</td>
+            <td>A&amp;E Triage Category, A&amp;E Organisation Type, A&amp;E Attendance Category</td>
+        </tr>
+        
+        <tr>
+            <td>cb_BDCT_SRMappingGroup_V3</td>
+            <td>cb_datasetref</td>
+            <td>varchar</td>
+            <td>ExportSRE010116_311023, src_bdct_ExportNov22SRE 010116_310822, src_BDCT_SRMappingGroup_V2</td>
+        </tr>
+        
+        <tr>
+            <td>observation_period</td>
+            <td>observation_period_id</td>
+            <td>bigint</td>
+            <td>7162, 5834, 2917</td>
+        </tr>
+        
+        <tr>
+            <td>observation_period</td>
+            <td>person_id</td>
+            <td>int</td>
+            <td>13499185, 13141822, 12936212</td>
+        </tr>
+        
+        <tr>
+            <td>observation_period</td>
+            <td>observation_period_start_date</td>
+            <td>date</td>
+            <td>2016-12-02, 2017-01-12, 2016-01-06</td>
+        </tr>
+        
+        <tr>
+            <td>observation_period</td>
+            <td>observation_period_end_date</td>
+            <td>date</td>
+            <td>2018-02-06, 2016-12-02, 2017-12-20</td>
+        </tr>
+        
+        <tr>
+            <td>observation_period</td>
+            <td>period_type_concept_id</td>
+            <td>int</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>person_id</td>
+            <td>bigint</td>
+            <td>5623, 5046, 2194</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>gender_concept_id</td>
+            <td>int</td>
+            <td>45766035, 45766034, 0</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>year_of_birth</td>
+            <td>int</td>
+            <td>1932, 1930, 1931</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>month_of_birth</td>
+            <td>int</td>
+            <td>3, 1, 5</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>day_of_birth</td>
+            <td>int</td>
+            <td>15</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>birth_datetime</td>
+            <td>datetime2</td>
+            <td>1932-01-15 00:00:00.0000000, 1931-01-15 00:00:00.0000000, 1931-03-15 00:00:00.0000000</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>death_datetime</td>
+            <td>datetime2</td>
+            <td>2020-04-15 00:00:00.0000000, 2018-01-15 00:00:00.0000000, 2017-01-15 00:00:00.0000000</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>race_concept_id</td>
+            <td>int</td>
+            <td>46286810, 8552, 46285832</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>ethnicity_concept_id</td>
+            <td>int</td>
+            <td>46286810, 8552, 46285832</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>location_id</td>
+            <td>bigint</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>provider_id</td>
+            <td>bigint</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>care_site_id</td>
+            <td>bigint</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>person_source_value</td>
+            <td>varchar</td>
+            <td>12414204, 14981596, 13421077</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>gender_source_value</td>
+            <td>varchar</td>
+            <td>F, M, Male</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>gender_source_concept_id</td>
+            <td>int</td>
+            <td>45766035, 45766034, 4215271</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>race_source_value</td>
+            <td>varchar</td>
+            <td>White: English or Welsh or Scottish or Northern Ir, Unknown/Refuse to say, Asian or Asian British: Pakistani - England and Wa</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>race_source_concept_id</td>
+            <td>int</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>ethnicity_source_value</td>
+            <td>varchar</td>
+            <td>White: English or Welsh or Scottish or Northern Irish or British - England and Wales ethnic category 2011 census, Unknown/Refuse to say, Asian or Asian British: Pakistani - England and Wales ethnic category 2011 census</td>
+        </tr>
+        
+        <tr>
+            <td>person</td>
+            <td>ethnicity_source_concept_id</td>
+            <td>int</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>person_id</td>
+            <td>bigint</td>
+            <td>13543039, 13165119, 13533245</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3_start_date</td>
+            <td>datetime</td>
+            <td>Apr  1 2019 12:00AM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3_end_date</td>
+            <td>datetime</td>
+            <td>Mar 31 2020 12:00AM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>unique_cds_identifier</td>
+            <td>varchar</td>
+            <td>BTAD000000000000000000000000FKKX4, BTAD000000000000000000000000FII7W, BTAD000000000000000000000000FFS8V</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>cds_type</td>
+            <td>varchar</td>
+            <td>130</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>protocol_identifier</td>
+            <td>varchar</td>
+            <td>20</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>bulk_replacement_cds_group</td>
+            <td>varchar</td>
+            <td>10</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>extract_date_time</td>
+            <td>varchar</td>
+            <td>20200415 15:01</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>BDCT_CDS130InpatientFCEdata_report_period_start_date</td>
+            <td>varchar</td>
+            <td>20190401</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>BDCT_CDS130InpatientFCEdata_report_period_end_date</td>
+            <td>varchar</td>
+            <td>20200331</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>organisation_code__sender_of_transaction</td>
+            <td>varchar</td>
+            <td>TAD</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>submission_date</td>
+            <td>varchar</td>
+            <td>20200415</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>cds_interchange_id</td>
+            <td>varchar</td>
+            <td>v+fN0qkFBhY=</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>organisation_code_local_patient_identifier</td>
+            <td>varchar</td>
+            <td>TAD</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>postcode_area_only</td>
+            <td>varchar</td>
+            <td>BD16, BD2, BD6</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>date_of_birth_mm_yy</td>
+            <td>varchar</td>
+            <td>Aug-97, Mar-44, Nov-44</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>sex</td>
+            <td>varchar</td>
+            <td>1, 2</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ethnic_group</td>
+            <td>varchar</td>
+            <td>A, Z, S</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>marital_status_psychiatric_census_only</td>
+            <td>varchar</td>
+            <td>M, 9, 8</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>age_as_on_admission</td>
+            <td>varchar</td>
+            <td>75, 22, 62</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>age_at_cds_activity_date</td>
+            <td>varchar</td>
+            <td>75, 22, 71</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>carer_support_indicator</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>legal_status_classification_on_admission_psychiatric_census_only</td>
+            <td>varchar</td>
+            <td>98</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>organisation_code_residence_responsibility</td>
+            <td>varchar</td>
+            <td>02R, 02N, X98</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>hospital_provider_spell_number</td>
+            <td>varchar</td>
+            <td>402c51200000, 35c6ce100000, 19441f100000</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>administrative_category</td>
+            <td>varchar</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>patient_classification</td>
+            <td>varchar</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>admission_method_hospital_provider_spell</td>
+            <td>varchar</td>
+            <td>25, 28, 81</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>discharge_destination_hospital_provider_spell</td>
+            <td>varchar</td>
+            <td>85, 19, 79</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>discharge_method_hospital_provider_spell</td>
+            <td>varchar</td>
+            <td>1, 4</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>source_of_admission_hospital_provider_spell</td>
+            <td>varchar</td>
+            <td>19, 51, 29</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_hospital_provider_spell</td>
+            <td>varchar</td>
+            <td>20190319, 20190314, 20190308</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_hospital_provider_spell</td>
+            <td>varchar</td>
+            <td>12:24:00, 10:45:00, 10:22:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>discharge_date_from_hospital_provider_spell</td>
+            <td>varchar</td>
+            <td>20190926, 20190424, 20190417</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>discharge_time_hospital_provider_spell</td>
+            <td>varchar</td>
+            <td>13:30:00, 14:00:00, 15:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>discharge_to_hospital_at_home_service_indicator</td>
+            <td>varchar</td>
+            <td>N</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>episode_number</td>
+            <td>varchar</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>last_episode_in_spell_indicator</td>
+            <td>varchar</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>operation_status</td>
+            <td>varchar</td>
+            <td>8</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>psychiatric_patient_status</td>
+            <td>varchar</td>
+            <td>NULL, 8, 1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_consultant_episode</td>
+            <td>varchar</td>
+            <td>20190319, 20190314, 20190308</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_episode</td>
+            <td>varchar</td>
+            <td>12:24:00, 10:45:00, 10:22:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_consultant_episode</td>
+            <td>varchar</td>
+            <td>20190926, 20190424, 20190417</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_episode</td>
+            <td>varchar</td>
+            <td>13:30:00, 14:00:00, 15:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>commissioner_reference_number</td>
+            <td>varchar</td>
+            <td>9</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>organisation_code_code_of_provider</td>
+            <td>varchar</td>
+            <td>TAD</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>organisation_code_code_of_commissioner</td>
+            <td>varchar</td>
+            <td>02R, 02N, 03C</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>consultant_code</td>
+            <td>varchar</td>
+            <td>C5195439, C4316343, C4676289</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>main_specialty_code</td>
+            <td>varchar</td>
+            <td>715, 710</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>treatment_function_code</td>
+            <td>varchar</td>
+            <td>715, 710</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_scheme_in_use_icd</td>
+            <td>varchar</td>
+            <td>2</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_primary_icd</td>
+            <td>varchar</td>
+            <td>F019, F603, G301</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_1st_secondary_icd</td>
+            <td>varchar</td>
+            <td>F001, F339, Z915</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_2nd_secondary_icd</td>
+            <td>varchar</td>
+            <td>N390, E669, Z915</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_3rd_secondary_icd</td>
+            <td>varchar</td>
+            <td>B968, E282, I10X</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_4th_secondary_icd</td>
+            <td>varchar</td>
+            <td>R296, F171, E119</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_5th_secondary_icd</td>
+            <td>varchar</td>
+            <td>J459, J22X, I872</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_6th_secondary_icd</td>
+            <td>varchar</td>
+            <td>NULL, I129, E871</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_7th_secondary_icd</td>
+            <td>varchar</td>
+            <td>NULL, I444, I10X</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_8th_secondary_icd</td>
+            <td>varchar</td>
+            <td>NULL, I480, I259</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_9th_secondary_icd</td>
+            <td>varchar</td>
+            <td>NULL, E669, I509</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_10th_secondary_icd</td>
+            <td>varchar</td>
+            <td>NULL, L409, L304</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_11th_secondary_icd</td>
+            <td>varchar</td>
+            <td>NULL, Z867, M100</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>diagnosis_12th_secondary_icd</td>
+            <td>varchar</td>
+            <td>NULL, I831, I500</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>procedure_scheme_in_use_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>primary_procedure_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>primary_procedure_date_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a2nd_procedure_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a2nd_procedure_date_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a3rd_procedure_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a3rd_procedure_date_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a4th_procedure_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a4th_procedure_date_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a5th_procedure_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a5th_procedure_date_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a6th_procedure_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a6th_procedure_date_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a7th_procedure_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a7th_procedure_date_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a8th_procedure_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a8th_procedure_date_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a9th_procedure_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a9th_procedure_date_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a10th_procedure_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a10th_procedure_date_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a11th_procedure_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a11th_procedure_date_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a12th_procedure_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a12th_procedure_date_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a13th_procedure_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>a13th_procedure_date_opcs</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_at_episode_start_date</td>
+            <td>varchar</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_at_episode_start_date</td>
+            <td>varchar</td>
+            <td>4</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_at_episode_start_date</td>
+            <td>varchar</td>
+            <td>TAD17, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_1</td>
+            <td>varchar</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_1</td>
+            <td>varchar</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_1</td>
+            <td>varchar</td>
+            <td>TAD17, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_1</td>
+            <td>varchar</td>
+            <td>20190319, 20190314, 20190308</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_ward_stay_1</td>
+            <td>varchar</td>
+            <td>12:24:00, 10:45:00, 10:22:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_1</td>
+            <td>varchar</td>
+            <td>20190824, 20190424, 20190417</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_ward_stay_1</td>
+            <td>varchar</td>
+            <td>14:00:00, 13:30:00, 15:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_2</td>
+            <td>varchar</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_2</td>
+            <td>varchar</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_2</td>
+            <td>varchar</td>
+            <td>TAD17, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_2</td>
+            <td>varchar</td>
+            <td>20190319, 20190314, 20190308</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_ward_stay_2</td>
+            <td>varchar</td>
+            <td>12:24:00, 10:45:00, 10:22:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_2</td>
+            <td>varchar</td>
+            <td>20190824, 20190424, 20190417</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_ward_stay_2</td>
+            <td>varchar</td>
+            <td>14:00:00, 13:30:00, 15:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_3</td>
+            <td>varchar</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_3</td>
+            <td>varchar</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_3</td>
+            <td>varchar</td>
+            <td>TAD17, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_3</td>
+            <td>varchar</td>
+            <td>20190319, 20190314, 20190308</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_ward_stay_3</td>
+            <td>varchar</td>
+            <td>12:24:00, 10:45:00, 10:22:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_3</td>
+            <td>varchar</td>
+            <td>20190824, 20190424, 20190417</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_ward_stay_3</td>
+            <td>varchar</td>
+            <td>14:00:00, 13:30:00, 15:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_4</td>
+            <td>varchar</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_4</td>
+            <td>varchar</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_4</td>
+            <td>varchar</td>
+            <td>TAD17, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_4</td>
+            <td>varchar</td>
+            <td>20190319, 20190314, 20190308</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_ward_stay_4</td>
+            <td>varchar</td>
+            <td>12:24:00, 10:45:00, 10:22:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_4</td>
+            <td>varchar</td>
+            <td>20190824, 20190424, 20190417</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_ward_stay_4</td>
+            <td>varchar</td>
+            <td>14:00:00, 13:30:00, 15:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_5</td>
+            <td>varchar</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_5</td>
+            <td>varchar</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_5</td>
+            <td>varchar</td>
+            <td>TAD17, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_5</td>
+            <td>varchar</td>
+            <td>20190319, 20190314, 20190308</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_ward_stay_5</td>
+            <td>varchar</td>
+            <td>12:24:00, 10:45:00, 10:22:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_5</td>
+            <td>varchar</td>
+            <td>20190824, 20190424, 20190417</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_ward_stay_5</td>
+            <td>varchar</td>
+            <td>14:00:00, 13:30:00, 15:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_6</td>
+            <td>varchar</td>
+            <td>NULL, 0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_6</td>
+            <td>varchar</td>
+            <td>NULL, 1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_6</td>
+            <td>varchar</td>
+            <td>NULL, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_6</td>
+            <td>varchar</td>
+            <td>NULL, 20200306, 20200208</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_ward_stay_6</td>
+            <td>varchar</td>
+            <td>NULL, 12:24:00, 10:22:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_6</td>
+            <td>varchar</td>
+            <td>NULL, 20200306, 20200227</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_ward_stay_6</td>
+            <td>varchar</td>
+            <td>NULL, 17:52:11, 16:55:55</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_7</td>
+            <td>varchar</td>
+            <td>NULL, 0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_7</td>
+            <td>varchar</td>
+            <td>NULL, 1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_7</td>
+            <td>varchar</td>
+            <td>NULL, TAD17, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_7</td>
+            <td>varchar</td>
+            <td>NULL, 20200306, 20200227</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_ward_stay_7</td>
+            <td>varchar</td>
+            <td>NULL, 17:52:11, 16:55:55</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_7</td>
+            <td>varchar</td>
+            <td>NULL, 20200330, 20200323</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_ward_stay_7</td>
+            <td>varchar</td>
+            <td>NULL, 16:38:51, 10:25:47</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_8</td>
+            <td>varchar</td>
+            <td>NULL, 0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_8</td>
+            <td>varchar</td>
+            <td>NULL, 1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_8</td>
+            <td>varchar</td>
+            <td>NULL, TAD17, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_8</td>
+            <td>varchar</td>
+            <td>NULL, 20200306, 20200227</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_ward_stay_8</td>
+            <td>varchar</td>
+            <td>NULL, 17:52:11, 16:55:55</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_8</td>
+            <td>varchar</td>
+            <td>NULL, 20200330, 20200323</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_ward_stay_8</td>
+            <td>varchar</td>
+            <td>NULL, 16:38:51, 10:25:47</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_9</td>
+            <td>varchar</td>
+            <td>NULL, 0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_9</td>
+            <td>varchar</td>
+            <td>NULL, 1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_9</td>
+            <td>varchar</td>
+            <td>NULL, TAD17, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_9</td>
+            <td>varchar</td>
+            <td>NULL, 20200306, 20200227</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_ward_stay_9</td>
+            <td>varchar</td>
+            <td>NULL, 17:52:11, 16:55:55</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_9</td>
+            <td>varchar</td>
+            <td>NULL, 20200330, 20200323</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_ward_stay_9</td>
+            <td>varchar</td>
+            <td>NULL, 16:38:51, 10:25:47</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_10</td>
+            <td>varchar</td>
+            <td>NULL, 0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_10</td>
+            <td>varchar</td>
+            <td>NULL, 1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_10</td>
+            <td>varchar</td>
+            <td>NULL, TAD17, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_10</td>
+            <td>varchar</td>
+            <td>NULL, 20200306, 20200227</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_ward_stay_10</td>
+            <td>varchar</td>
+            <td>NULL, 17:52:11, 16:55:55</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_10</td>
+            <td>varchar</td>
+            <td>NULL, 20200330, 20200323</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_ward_stay_10</td>
+            <td>varchar</td>
+            <td>NULL, 16:38:51, 10:25:47</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_11</td>
+            <td>varchar</td>
+            <td>NULL, 0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_11</td>
+            <td>varchar</td>
+            <td>NULL, 1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_11</td>
+            <td>varchar</td>
+            <td>NULL, TAD17, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_11</td>
+            <td>varchar</td>
+            <td>NULL, 20200306, 20200227</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_ward_stay_11</td>
+            <td>varchar</td>
+            <td>NULL, 17:52:11, 16:55:55</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_11</td>
+            <td>varchar</td>
+            <td>NULL, 20200330, 20200323</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_ward_stay_11</td>
+            <td>varchar</td>
+            <td>NULL, 16:38:51, 10:25:47</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_12</td>
+            <td>varchar</td>
+            <td>NULL, 0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_12</td>
+            <td>varchar</td>
+            <td>NULL, 1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_12</td>
+            <td>varchar</td>
+            <td>NULL, TAD17, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_12</td>
+            <td>varchar</td>
+            <td>NULL, 20200306, 20200227</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_ward_stay_12</td>
+            <td>varchar</td>
+            <td>NULL, 17:52:11, 16:55:55</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_12</td>
+            <td>varchar</td>
+            <td>NULL, 20200330, 20200323</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_ward_stay_12</td>
+            <td>varchar</td>
+            <td>NULL, 16:38:51, 10:25:47</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_13</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_13</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_13</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_date_13</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>start_time_ward_stay_13</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_date_13</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>end_time_ward_stay_13</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>ward_security_level_at_episode_end_date</td>
+            <td>varchar</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>location_class_at_episode_end_date</td>
+            <td>varchar</td>
+            <td>5</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>site_code_of_treatment_at_episode_end_date</td>
+            <td>varchar</td>
+            <td>TAD17, TAD16</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>general_medical_practitioner_code_of_registered_gmp</td>
+            <td>varchar</td>
+            <td>G8738503, G9407211, G9603677</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>referrer_code</td>
+            <td>varchar</td>
+            <td>X9999998, G8942249, G8139513</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>referring_organisation_code</td>
+            <td>varchar</td>
+            <td>X99998, TAD, B83624</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>duration_of_elective_wait</td>
+            <td>varchar</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>intended_management</td>
+            <td>varchar</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>decided_to_admit_date_for_this_provider</td>
+            <td>varchar</td>
+            <td>20190319, 20190314, 20190308</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>hrg_code</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>hrg_version_number</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>fce_hrg</td>
+            <td>varchar</td>
+            <td>WD02Z, WD03Z, AA25E</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>episode_hrg_version_number</td>
+            <td>varchar</td>
+            <td>4</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>spell_core_hrg</td>
+            <td>varchar</td>
+            <td>WD02Z, WD03Z, AA25E</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>spell_hrg_version_number</td>
+            <td>varchar</td>
+            <td>4</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>cds_activity_date</td>
+            <td>varchar</td>
+            <td>20190926, 20190424, 20190417</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>hospital_provider_spell_discharge_ready_date</td>
+            <td>varchar</td>
+            <td>NULL, 20200206, 20200205</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>confidentiality_category_derived</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>cds_group</td>
+            <td>varchar</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>finished_indicator</td>
+            <td>varchar</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>gp_practice_derived</td>
+            <td>varchar</td>
+            <td>B83029, B83014, B83041</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>pct_derived_from_derived_gp_practice</td>
+            <td>varchar</td>
+            <td>02R, 02N, 15F</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>hospital_spell_duration</td>
+            <td>varchar</td>
+            <td>2, 146, 14</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_CDS130InpatientFCEdata_V3</td>
+            <td>cb_datasetref</td>
+            <td>varchar</td>
+            <td>src_bdct_ExportNov22SRE 010116_310822</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>person_id</td>
+            <td>bigint</td>
+            <td>13165119, 12620073, 12674054</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>tbl_BDCT_SRActivityEvent_V3_start_date</td>
+            <td>datetime</td>
+            <td>Jul 11 2018  4:31PM, Feb  8 2017 11:00AM, Aug  3 2018  9:27AM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>tbl_BDCT_SRActivityEvent_V3_end_date</td>
+            <td>datetime</td>
+            <td>Jul 11 2018  4:31PM, Feb  8 2017 11:00AM, Aug  3 2018  9:27AM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>rowidentifier</td>
+            <td>varchar</td>
+            <td>763934206, 976565782, 1013362235</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>BDCT_SRActivityEvent_V3_Dateeventrecorded</td>
+            <td>varchar</td>
+            <td>10 Jul 2018 00:00:00, 22 Oct 2018 14:46:32, 03 Aug 2018 09:27:35</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>BDCT_SRActivityEvent_V3_Dateevent</td>
+            <td>varchar</td>
+            <td>11 Jul 2018 16:31:00, 08 Feb 2017 11:00:00, 03 Aug 2018 09:27:35</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>idprofileenteredby</td>
+            <td>varchar</td>
+            <td>15596, 12463, 15466</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>iddoneby</td>
+            <td>varchar</td>
+            <td>12380, 4785, 12064</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>idorganisationdoneat</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 453259877042</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>eventdetails</td>
+            <td>varchar</td>
+            <td>9380, 553960, 876</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>eventdetailswith</td>
+            <td>varchar</td>
+            <td>627, 654, 625</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>eventdetailsmethod</td>
+            <td>varchar</td>
+            <td>10733, 2777, 2781</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>eventdetailsduration</td>
+            <td>varchar</td>
+            <td>10, 5, 0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>idevent</td>
+            <td>varchar</td>
+            <td>47270074621, 47260035018, 40727343561</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>idreferralin</td>
+            <td>varchar</td>
+            <td>-1, 208455964, 207937650</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>idorganisation</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 453259877042</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>idorganisationregisteredat</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 453259877042</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRActivityEvent_V3</td>
+            <td>cb_datasetref</td>
+            <td>varchar</td>
+            <td>src_bdct_ExportNov22SRE 010116_310822, src_BDCT_SRActivityEvent_V2</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>person_id</td>
+            <td>bigint</td>
+            <td>13709566, 12552427, 12674054</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>tbl_BDCT_SRAppointment_V3_start_date</td>
+            <td>datetime</td>
+            <td>Mar  3 2016 11:00AM, Feb  2 2016 11:00AM, Jun  9 2016 10:00AM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>tbl_BDCT_SRAppointment_V3_end_date</td>
+            <td>datetime</td>
+            <td>Mar  3 2016 11:00AM, Mar 11 2016  3:00PM, Nov  3 2016  3:00PM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>rowidentifier</td>
+            <td>varchar</td>
+            <td>10922632752, 9971205784, 10923619353</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>BDCT_SRAppointment_V3_Datestart</td>
+            <td>varchar</td>
+            <td>09 Mar 2016 13:00:00, 09 Feb 2016 10:00:00, 14 Jun 2016 10:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>BDCT_SRAppointment_V3_Dateend</td>
+            <td>varchar</td>
+            <td>14 Jun 2016 12:00:00, 09 Mar 2016 15:00:00, 09/03/2016 15:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>appointmentstatus</td>
+            <td>varchar</td>
+            <td>1087, 1113, 1080</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>dateappointmentbooked</td>
+            <td>varchar</td>
+            <td>04 Apr 2017 10:19:00, 21 Oct 2016 09:36:00, 20 Apr 2016 13:39:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>datepatientarrival</td>
+            <td>varchar</td>
+            <td>, 28 Jul 2016 09:00:00, 10 Mar 2016 09:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>datepatientseen</td>
+            <td>varchar</td>
+            <td>, 28 Jul 2016 09:00:00, 10 Mar 2016 09:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>followupappointment</td>
+            <td>varchar</td>
+            <td>FALSE, TRUE</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>telephoneappointment</td>
+            <td>varchar</td>
+            <td>FALSE, true</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>idclinician</td>
+            <td>varchar</td>
+            <td>17296, 7242, 15466</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>idprofileclinician</td>
+            <td>varchar</td>
+            <td>17296, 7242, 15466</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>rotalocation</td>
+            <td>varchar</td>
+            <td>-1, 10175, 406</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>rotacode</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>idrotaowner</td>
+            <td>varchar</td>
+            <td>-1, 8732, 13153</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>idprofilerotaowner</td>
+            <td>varchar</td>
+            <td>-1, 8732, 13153</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>allowsoverbooking</td>
+            <td>varchar</td>
+            <td>FALSE, true</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>dateappointmentcancelled</td>
+            <td>varchar</td>
+            <td>, 27 May 2021 16:11:59, 19 Feb 2020 10:30:07</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>idrota</td>
+            <td>varchar</td>
+            <td>275592322, 275705862, 275588181</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>idreferralin</td>
+            <td>varchar</td>
+            <td>-1, 208119907, 208072561</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>idorganisation</td>
+            <td>varchar</td>
+            <td>563468084105, 5.63468E+11, 563468083104</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>idorganisationregisteredat</td>
+            <td>varchar</td>
+            <td>563468084105, 5.63468E+11, 563468083104</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRAppointment_V3</td>
+            <td>cb_datasetref</td>
+            <td>varchar</td>
+            <td>src_bdct_ExportNov22SRE 010116_310822, src_BDCT_SRAppointment_V2</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>person_id</td>
+            <td>bigint</td>
+            <td>12620073, 13165119, 13543039</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>tbl_BDCT_SRCode_V3_start_date</td>
+            <td>datetime</td>
+            <td>Mar  7 2016 12:00AM, Mar 14 2017 12:00AM, Apr  4 2017 12:00AM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>tbl_BDCT_SRCode_V3_end_date</td>
+            <td>datetime</td>
+            <td>Mar  7 2016 12:00AM, Mar 14 2017 12:00AM, Apr  4 2017 12:00AM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>rowidentifier</td>
+            <td>varchar</td>
+            <td>50336981449, 19540540071, 42466161934</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>BDCT_SRCode_V3_dateeventrecorded</td>
+            <td>varchar</td>
+            <td>10 Jul 2018 00:00:00, 30 Jul 2018 00:00:00, 15 Jul 2018 00:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>BDCT_SRCode_V3_datevent</td>
+            <td>varchar</td>
+            <td>07 Mar 2016 00:00:00, 14 Mar 2017 00:00:00, 04 Apr 2017 00:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>idprofileenteredby</td>
+            <td>varchar</td>
+            <td>15261, 3939, 14659</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>iddoneby</td>
+            <td>varchar</td>
+            <td>-1, 7828, 7054</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>idorganisationdoneat</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 453259877042</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>ctv3code</td>
+            <td>varchar</td>
+            <td>XaIge, 9N31., XaDz8</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>ctv3text</td>
+            <td>varchar</td>
+            <td>Telephone consultation, Telephone encounter, Provision of telephone</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>snomedcode</td>
+            <td>varchar</td>
+            <td>-1, 386472008, 185317003</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>snomedtext</td>
+            <td>varchar</td>
+            <td>, Telephone consultation, Telephone encounter</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>numericcomparator</td>
+            <td>varchar</td>
+            <td>147935, 147936, 148001</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>isnumeric</td>
+            <td>varchar</td>
+            <td>false, true</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>numericvalue</td>
+            <td>varchar</td>
+            <td>0.0, 2.0, 3.0</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>numericunit</td>
+            <td>varchar</td>
+            <td>, Days, Kg</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>episodetype</td>
+            <td>varchar</td>
+            <td>12259, 12258, 12260</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>idtemplate</td>
+            <td>varchar</td>
+            <td>-1, 2707789, 955412</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>idquestionnaire</td>
+            <td>varchar</td>
+            <td>-1, 2828563, 2828428</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>idevent</td>
+            <td>varchar</td>
+            <td>47424709741, 42590246908, 20877381735</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>idreferralin</td>
+            <td>varchar</td>
+            <td>-1, 208119907, 63031708</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>idappointment</td>
+            <td>varchar</td>
+            <td>-1, 10268814816, 11869737997</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>idvisit</td>
+            <td>varchar</td>
+            <td>-1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>idorganisation</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 453259877042</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>idorganisationregisteredat</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 453259877042</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>visit_occ_id</td>
+            <td>bigint</td>
+            <td>2636834, 588908</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRCode_V3</td>
+            <td>cb_datasetref</td>
+            <td>varchar</td>
+            <td>src_bdct_ExportNov22SRE 010116_310822, src_BDCT_SRCode_V2</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>person_id</td>
+            <td>bigint</td>
+            <td>12822604, 12963006, 13124271</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>tbl_BDCT_SREvent_V3_start_date</td>
+            <td>datetime</td>
+            <td>Jan 11 2016 12:00AM, Apr  1 2016 12:00AM, Mar  7 2016 12:00AM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>tbl_BDCT_SREvent_V3_end_date</td>
+            <td>datetime</td>
+            <td>Jan 11 2016 12:00AM, Apr  1 2016 12:00AM, Mar  7 2016 12:00AM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>rowidentifier</td>
+            <td>varchar</td>
+            <td>17181011388, 17180821691, 17180016268</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>BDCT_SREvent_V3_dateeventrecorded</td>
+            <td>varchar</td>
+            <td>10 Jul 2018 00:00:00, 30 Jul 2018 00:00:00, 10 Jul 2018 18:33:51</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>BDCT_SREvent_V3_dateevent</td>
+            <td>varchar</td>
+            <td>11 Jan 2016 00:00:00, 01 Apr 2016 00:00:00, 07 Mar 2016 00:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>idprofileenteredby</td>
+            <td>varchar</td>
+            <td>3939, 6653, 11442</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>iddoneby</td>
+            <td>varchar</td>
+            <td>-1, 4410, 12380</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>idstaffmemberprofilerole</td>
+            <td>varchar</td>
+            <td>-1, 1016, 1056</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>idorganisationdoneat</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 563468098101</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>idauthorisedby</td>
+            <td>varchar</td>
+            <td>-1, 15596, 11442</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>idprofileauthorisedby</td>
+            <td>varchar</td>
+            <td>-1, 15596, 11442</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>contacteventlocation</td>
+            <td>varchar</td>
+            <td>2410, -1, 10175</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>contactmethod</td>
+            <td>varchar</td>
+            <td>-1, 2781, 10733</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>eventincomplete</td>
+            <td>varchar</td>
+            <td>false, true</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>clinicalevent</td>
+            <td>varchar</td>
+            <td>true, false</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>idreferralin</td>
+            <td>varchar</td>
+            <td>-1, 208119907, 208455964</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>idorganisation</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 563468098101</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>idteam</td>
+            <td>varchar</td>
+            <td>-1, 10237, 10226</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>idbranch</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>idorganisationregisteredat</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 563468098101</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREvent_V3</td>
+            <td>cb_datasetref</td>
+            <td>varchar</td>
+            <td>src_bdct_ExportNov22SRE 010116_310822, src_BDCT_SREvent_V2</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREventLink_V3</td>
+            <td>person_id</td>
+            <td>bigint</td>
+            <td>13709566, 12910606, 12552427</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREventLink_V3</td>
+            <td>tbl_BDCT_SREventLink_V3_start_date</td>
+            <td>datetime</td>
+            <td>Apr 12 2016  2:00PM, Jul 28 2016  9:00AM, Jan 20 2016  1:00PM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREventLink_V3</td>
+            <td>tbl_BDCT_SREventLink_V3_end_date</td>
+            <td>datetime</td>
+            <td>Apr 12 2016  2:00PM, Jul 28 2016  9:00AM, Jan 20 2016  1:00PM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREventLink_V3</td>
+            <td>rowidentifier</td>
+            <td>varchar</td>
+            <td>1000937693, 1000912207, 1000236110</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREventLink_V3</td>
+            <td>BDCT_SREventLink_V3_dateeventrecorded</td>
+            <td>varchar</td>
+            <td>10 Jul 2018 00:00:00, 14 Nov 2018 11:39:11, 15 Jul 2018 00:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREventLink_V3</td>
+            <td>BDCT_SREventLink_V3_dateevent</td>
+            <td>varchar</td>
+            <td>12 Apr 2016 14:00:00, 28 Jul 2016 09:00:00, 20 Jan 2016 13:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREventLink_V3</td>
+            <td>idprofileenteredby</td>
+            <td>varchar</td>
+            <td>7242, 15466, 9758</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREventLink_V3</td>
+            <td>iddoneby</td>
+            <td>varchar</td>
+            <td>8765, 7229, 8180</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREventLink_V3</td>
+            <td>idorganisationdoneat</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 563468098101</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREventLink_V3</td>
+            <td>idreferralin</td>
+            <td>varchar</td>
+            <td>-1, 208119907, 207945034</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREventLink_V3</td>
+            <td>idorganisation</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 563468098101</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREventLink_V3</td>
+            <td>idorganisationregisteredat</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 563468098101</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SREventLink_V3</td>
+            <td>cb_datasetref</td>
+            <td>varchar</td>
+            <td>src_bdct_ExportNov22SRE 010116_310822, src_BDCT_SREventLink_V2</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRPatient_V3</td>
+            <td>person_id</td>
+            <td>bigint</td>
+            <td>614249</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRPatient_V3</td>
+            <td>tbl_BDCT_SRPatient_V3_start_date</td>
+            <td>datetime</td>
+            <td>Jan  3 1941 12:00AM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRPatient_V3</td>
+            <td>tbl_BDCT_SRPatient_V3_end_date</td>
+            <td>datetime</td>
+            <td>Jan  3 1941 12:00AM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRPatient_V3</td>
+            <td>BDCT_SRPatient_V3_birthmmyyyy</td>
+            <td>varchar</td>
+            <td>1941-03-01 00:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRPatient_V3</td>
+            <td>deathmmyyyy</td>
+            <td>varchar</td>
+            <td>2018-05-01 00:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRPatient_V3</td>
+            <td>gender</td>
+            <td>varchar</td>
+            <td>M</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRPatient_V3</td>
+            <td>speaksenglish</td>
+            <td>varchar</td>
+            <td>54771</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRPatient_V3</td>
+            <td>spinematched</td>
+            <td>varchar</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRPatient_V3</td>
+            <td>cb_datasetref</td>
+            <td>varchar</td>
+            <td>src_BDCT_SRPatient_V2, src_bdct_ExportNov22SRE 010116_310822</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>person_id</td>
+            <td>bigint</td>
+            <td>12615994, 12669825, 13583496</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>tbl_BDCT_SRReferralIn_V3_start_date</td>
+            <td>datetime</td>
+            <td>Nov  1 2012 12:00AM, Dec 22 2015  9:45AM, Dec  2 2015  2:00PM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>tbl_BDCT_SRReferralIn_V3_end_date</td>
+            <td>datetime</td>
+            <td>Nov  1 2012 12:00AM, Dec 22 2015  9:45AM, Dec  2 2015  2:00PM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>rowidentifier</td>
+            <td>varchar</td>
+            <td>103709896, 103316002, 102374676</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>tbl_BDCT_SRReferralIn_V3_dateeventrecorded</td>
+            <td>varchar</td>
+            <td>10 Jul 2018 00:00:00, 15 Jul 2018 00:00:00, 22 Sep 2017 11:58:15</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>tbl_BDCT_SRReferralIn_V3_dateevent</td>
+            <td>varchar</td>
+            <td>01 Nov 2012 00:00:00, 02 Dec 2015 14:00:00, 08 Sep 2015 09:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>idprofileenteredby</td>
+            <td>varchar</td>
+            <td>3939, 6653, 6469</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>iddoneby</td>
+            <td>varchar</td>
+            <td>-1, 7828, 9451</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>idorganisationdoneat</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 563468098101</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>category</td>
+            <td>varchar</td>
+            <td>22671, 22659, 22662</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>primaryreason</td>
+            <td>varchar</td>
+            <td>1043, 1323, 19181</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>datereferral</td>
+            <td>varchar</td>
+            <td>01 Nov 2012 00:00:00, 02 Dec 2015 14:00:00, 08 Sep 2015 09:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>dateonreferralletter</td>
+            <td>varchar</td>
+            <td>, 12 Jan 2016 00:00:00, 05 Apr 2016 00:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>source</td>
+            <td>varchar</td>
+            <td>37449, 8898, 171522</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>serviceoffered</td>
+            <td>varchar</td>
+            <td>50119, 50128, 17836</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>servicetype</td>
+            <td>varchar</td>
+            <td>23645, 23638, 23639</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>rereferral</td>
+            <td>varchar</td>
+            <td>false, true</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>urgency</td>
+            <td>varchar</td>
+            <td>61416, 127, 126</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>idcodeprimarydiagnosis</td>
+            <td>varchar</td>
+            <td>-1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>reasonforservicedelay</td>
+            <td>varchar</td>
+            <td>-1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>outcome</td>
+            <td>varchar</td>
+            <td>152, 157, 313</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>defaultcontactlocation</td>
+            <td>varchar</td>
+            <td>-1, 10175, 612</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>datedischargescheduled</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>datedischarge</td>
+            <td>varchar</td>
+            <td>03 Feb 2016 00:00:00, 15 Jan 2018 00:00:00, </td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>dischargereason</td>
+            <td>varchar</td>
+            <td>22579, 22578, 22577</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>dischargelocation</td>
+            <td>varchar</td>
+            <td>-1, 10155, 135868</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>idreferrer</td>
+            <td>varchar</td>
+            <td>-1, 10089, 11527</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>sourcetablereferrer</td>
+            <td>varchar</td>
+            <td>137560, 137558, 137567</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>patientaware</td>
+            <td>varchar</td>
+            <td>true, false</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>dateofaction</td>
+            <td>varchar</td>
+            <td>, 01 Nov 2012 00:00:00, 02 Dec 2015 14:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>activestatus</td>
+            <td>varchar</td>
+            <td>true, false</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>referredtospeciality</td>
+            <td>varchar</td>
+            <td>30350, 30446, -1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>referredtotreatmentcode</td>
+            <td>varchar</td>
+            <td>-1, 30401, 30405</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>idreferredto</td>
+            <td>varchar</td>
+            <td>10089, 9805, 9817</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>sourcetablereferrerto</td>
+            <td>varchar</td>
+            <td>137567, 137558</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>referralpriority</td>
+            <td>varchar</td>
+            <td>24622, 24623, 24615</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>referralmedium</td>
+            <td>varchar</td>
+            <td>-1, 123252, 51373</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>dateofdecision</td>
+            <td>varchar</td>
+            <td>, 01 Nov 2012 00:00:00, 02 Dec 2015 14:00:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>commissioner</td>
+            <td>varchar</td>
+            <td>nan</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>clientcategory</td>
+            <td>varchar</td>
+            <td>-1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>primarysupportreason</td>
+            <td>varchar</td>
+            <td>-1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>idcaseload</td>
+            <td>varchar</td>
+            <td>-1, 260877, 553538</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>idevent</td>
+            <td>varchar</td>
+            <td>40604294124, 40605340317, 40611879793</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>idorganisation</td>
+            <td>varchar</td>
+            <td>563468084105, 563468083104, 563468098101</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>referralendreason</td>
+            <td>varchar</td>
+            <td>34612, 207306, 207303</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>idorganisationregisteredat</td>
+            <td>varchar</td>
+            <td>148903, 563468084105, 563468083104</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>hospitalreferredfortype</td>
+            <td>varchar</td>
+            <td>148903, 563468084105, 563468083104</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRReferralIn_V3</td>
+            <td>cb_datasetref</td>
+            <td>varchar</td>
+            <td>src_bdct_ExportNov22SRE 010116_310822, src_BDCT_SRReferralIn_V2</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>person_id</td>
+            <td>bigint</td>
+            <td>13550296, 13112504, 12711570</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>tbl_BDCT_SRVisit_V3_start_date</td>
+            <td>datetime</td>
+            <td>Sep  4 2018  9:54PM, Aug 10 2018  2:40PM, Aug  2 2018  1:50PM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>tbl_BDCT_SRVisit_V3_end_date</td>
+            <td>datetime</td>
+            <td>Sep  4 2018  9:54PM, Aug 10 2018  2:40PM, Aug  2 2018  1:50PM</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>rowidentifier</td>
+            <td>varchar</td>
+            <td>783730348, 777694111, 756274328</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>BDCT_SRVisit_V3_Dateeventrecorded</td>
+            <td>varchar</td>
+            <td>20 Nov 2018 15:55:48, 10 Aug 2018 14:40:23, 04 Sep 2018 21:54:47</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>idprofileenteredby</td>
+            <td>varchar</td>
+            <td>7242, 2354, 15889</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>BDCT_SRVisit_V3_Datebooked</td>
+            <td>varchar</td>
+            <td>20 Nov 2018 15:55:48, 10 Aug 2018 14:40:23, 04 Sep 2018 21:54:47</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>BDCT_SRVisit_V3_Daterequested</td>
+            <td>varchar</td>
+            <td>24 Jul 2018 11:00:00, 20 Nov 2018 14:30:00, 10 Aug 2018 15:30:00</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>currentstatus</td>
+            <td>varchar</td>
+            <td>2016, 2013</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>idprofilerequested</td>
+            <td>varchar</td>
+            <td>-1</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>idprofileassigned</td>
+            <td>varchar</td>
+            <td>7242, 2354, 14055</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>followupdetails</td>
+            <td>varchar</td>
+            <td>4018</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>idreferralin</td>
+            <td>varchar</td>
+            <td>208541809, 208445026, 143033436</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>idorganisation</td>
+            <td>varchar</td>
+            <td>563468084105, 563468098101</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>duration</td>
+            <td>varchar</td>
+            <td>30, 20</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>idorganisationregisteredat</td>
+            <td>varchar</td>
+            <td>563468084105, 563468098101</td>
+        </tr>
+        
+        <tr>
+            <td>tbl_BDCT_SRVisit_V3</td>
+            <td>cb_datasetref</td>
+            <td>varchar</td>
+            <td>src_BDCT_SRVisit_V2, src_bdct_ExportNov22SRE 010116_310822</td>
+        </tr>
+        
+        <tr>
+            <td>tmp_Eventdates</td>
+            <td>person_id</td>
+            <td>int</td>
+            <td>12752427, 13559500, 13370145</td>
+        </tr>
+        
+        <tr>
+            <td>tmp_Eventdates</td>
+            <td>EventStartDate</td>
+            <td>datetime</td>
+            <td>Sep 15 2021 12:00AM, Sep 14 2021 12:00AM</td>
+        </tr>
+        
+        <tr>
+            <td>tmp_Eventdates</td>
+            <td>EventEndDate</td>
+            <td>datetime</td>
+            <td>Sep 15 2021 12:00AM, Sep 14 2021 12:00AM</td>
+        </tr>
+        
+        <tr>
+            <td>tmp_EventdatesValid</td>
+            <td>person_id</td>
+            <td>int</td>
+            <td>12620073, 13709566, 12822604</td>
+        </tr>
+        
+        <tr>
+            <td>tmp_EventdatesValid</td>
+            <td>EventStartDate</td>
+            <td>date</td>
+            <td>2016-01-12, 2016-02-09, 2016-05-10</td>
+        </tr>
+        
+        <tr>
+            <td>tmp_EventdatesValid</td>
+            <td>EventEndDate</td>
+            <td>date</td>
+            <td>2016-01-12, 2016-02-09, 2016-05-10</td>
+        </tr>
+        
+        <tr>
+            <td>tmp_persons</td>
+            <td>person_id</td>
+            <td>int</td>
+            <td>13551640, 12960358, 12892747</td>
+        </tr>
+        
+        </table>
+    </body>
+    </html>
+    
