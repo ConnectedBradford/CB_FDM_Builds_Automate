@@ -1,0 +1,144 @@
+[
+    {
+        "DatasetName": "Connected Bradford Primary Care",
+        "DatasetDescription": "Contains scripts and documentation for Primary Care dataset with approximately 1 million patients.",
+        "BuildDate": "2024-02-08",
+        "DataUpTo": "2024-02-08",
+        "ObservationPeriodStart": "1900-01-01",
+        "ObservationPeriodEnd": "2024-02-08",
+        "AdditionalInfo": "No identifiable information available.",
+        "Tables": [
+            {
+                "TableName": "tbl_Admin_LoadLog",
+                "TableType": "tbl_",
+                "TableDescription": "Admin Load Log table."
+            },
+            {
+                "TableName": "tbl_SRAppointment",
+                "TableType": "tbl_",
+                "TableDescription": "SR Appointment table."
+            },
+            {
+                "TableName": "tbl_SRCHSStatusHistory",
+                "TableType": "tbl_",
+                "TableDescription": "SR CHS Status History table."
+            },
+            {
+                "TableName": "tbl_SRCode",
+                "TableType": "tbl_",
+                "TableDescription": "SR Code table."
+            },
+            {
+                "TableName": "tbl_SRCodeTemplateLink",
+                "TableType": "tbl_",
+                "TableDescription": "SR Code Template Link table."
+            },
+            {
+                "TableName": "tbl_SRConfiguredListOption",
+                "TableType": "tbl_",
+                "TableDescription": "SR Configured List Option table."
+            },
+            {
+                "TableName": "tbl_SRDrugSensitivity",
+                "TableType": "tbl_",
+                "TableDescription": "SR Drug Sensitivity table."
+            },
+            {
+                "TableName": "tbl_SREvent",
+                "TableType": "tbl_",
+                "TableDescription": "SR Event table."
+            },
+            {
+                "TableName": "tbl_SRVisit",
+                "TableType": "tbl_",
+                "TableDescription": "SR Visit table."
+            }
+        ]
+    },
+    {
+        "DatasetName": "CB_FDM_BDCT_TEST",
+        "DatasetDescription": "Detailed Description lets say",
+        "BuildDate": "2024-02-08",
+        "DataUpTo": "2024-02-08",
+        "ObservationPeriodStart": "1900-01-01",
+        "ObservationPeriodEnd": "2024-02-08",
+        "AdditionalInfo": "Additional infromation here",
+        "Tables": [
+            {
+                "TableName": "cb_BDCT_SRConfiguredListOption_V3",
+                "TableType": "cb",
+                "TableDescription": "Description for table [cb_BDCT_SRConfiguredListOption_V3]"
+            },
+            {
+                "TableName": "cb_BDCT_SRMapping_V3",
+                "TableType": "cb",
+                "TableDescription": "Description for table [cb_BDCT_SRMapping_V3]"
+            },
+            {
+                "TableName": "cb_BDCT_SRMappingGroup_V3",
+                "TableType": "cb",
+                "TableDescription": "Description for table [cb_BDCT_SRMappingGroup_V3]"
+            },
+            {
+                "TableName": "sysdiagrams",
+                "TableType": "sysdiagrams",
+                "TableDescription": "Description for table [sysdiagrams]"
+            },
+            {
+                "TableName": "tbl_BDCT_CDS130InpatientFCEdata_V3",
+                "TableType": "tbl",
+                "TableDescription": "Description for table [tbl_BDCT_CDS130InpatientFCEdata_V3]"
+            },
+            {
+                "TableName": "tbl_BDCT_SRActivityEvent_V3",
+                "TableType": "tbl",
+                "TableDescription": "Description for table [tbl_BDCT_SRActivityEvent_V3]"
+            },
+            {
+                "TableName": "tbl_BDCT_SRAppointment_V3",
+                "TableType": "tbl",
+                "TableDescription": "Description for table [tbl_BDCT_SRAppointment_V3]"
+            },
+            {
+                "TableName": "tbl_BDCT_SRCode_V3",
+                "TableType": "tbl",
+                "TableDescription": "Description for table [tbl_BDCT_SRCode_V3]"
+            },
+            {
+                "TableName": "tbl_BDCT_SREvent_V3",
+                "TableType": "tbl",
+                "TableDescription": "Description for table [tbl_BDCT_SREvent_V3]"
+            },
+            {
+                "TableName": "tbl_BDCT_SREventLink_V3",
+                "TableType": "tbl",
+                "TableDescription": "Description for table [tbl_BDCT_SREventLink_V3]"
+            },
+            {
+                "TableName": "tbl_BDCT_SRPatient_V3",
+                "TableType": "tbl",
+                "TableDescription": "Description for table [tbl_BDCT_SRPatient_V3]"
+            },
+            {
+                "TableName": "tbl_BDCT_SRReferralIn_V3",
+                "TableType": "tbl",
+                "TableDescription": "Description for table [tbl_BDCT_SRReferralIn_V3]"
+            },
+            {
+                "TableName": "tbl_BDCT_SRVisit_V3",
+                "TableType": "tbl",
+                "TableDescription": "Description for table [tbl_BDCT_SRVisit_V3]"
+            },
+            {
+                "TableName": "tbl_PACT_evaluation_contact",
+                "TableType": "tbl",
+                "TableDescription": "Description for table [tbl_PACT_evaluation_contact]"
+            },
+            {
+                "TableName": "tbl_PACT_evaluation_detail",
+                "TableType": "tbl",
+                "TableDescription": "Description for table [tbl_PACT_evaluation_detail]"
+            }
+        ]
+    }
+]
